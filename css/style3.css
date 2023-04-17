@@ -20,7 +20,7 @@ main{display: grid;
  .news{grid-area: news;}
  @media(max-width:800px){
      main{grid-template-columns: 1fr;display: grid;
-     grid-template-areas: "hd"
+     grid-template-areas: 
                           "ha"
                           "aa"
                           "foot";
@@ -41,7 +41,6 @@ main{display: grid;
  }
 
  .slider-area{grid-area: sa;height: 45vw;width: 100%;margin-top: -3vw;background-image:url(../img/01.jpg); background-repeat:no-repeat;background-size:cover;background-position:center;}
- header{grid-area: hd;position: absolute;top: 0;width: 100%;}
  .hero-area2{grid-area: ha;height: 16vw;margin-top: 2vw;background-image:url(../img/01.jpg); background-repeat:no-repeat;background-size:cover;background-position:center;}
  .about-area, .blog_area{grid-area: aa;}
 
